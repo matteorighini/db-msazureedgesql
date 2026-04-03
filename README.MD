@@ -68,4 +68,6 @@ This project is licensed under the [MIT License](https://www.google.com/search?q
 
 -----
 
-*Disclaimer: This repository is for development purposes. Ensure you always follow security best practices for production environments.*
+*Third-Party Software Notice: This repository utilizes the Azure SQL Edge Docker image, which is the proprietary software of Microsoft Corporation. Its use is governed by the Microsoft Software License Terms. By setting the ACCEPT_EULA variable to Y in the Docker configuration, you are formally agreeing to comply with those terms.*
+
+*Development Use: This setup is intended for development and testing purposes only. It has not been hardened for production use. Users are responsible for implementing security best practices—including credential management, encryption, and network isolation—before deploying to any production environment.*
